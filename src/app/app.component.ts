@@ -9,9 +9,14 @@ export class AppComponent  {
   name = 'Ellis ' ;
   input: string;
   output: string;
+  button; stirng;
 
   verplaats () {
     this.output = this.input;
     this.input = '';
   }
+  
+  
+  
 }
+ 
